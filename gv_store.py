@@ -22,7 +22,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-def loadClients():
+def loadClients(): #
     dataClients = [{
         "name": "Felisbelo Silva",
         "id": 1,
